@@ -6,8 +6,10 @@
 import java.util.Scanner;
 
 public class Solution01 {
-
     public static void main(String[ ] args) {
+        // print "What is your name? "
+        // add user input for variable name
+        // print name in output
         Scanner input = new Scanner(System.in);
         System.out.println("What is your name? ");
         String name = (input.nextLine());
